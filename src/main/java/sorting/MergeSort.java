@@ -10,9 +10,7 @@ public class MergeSort {
 
         List<Integer> numbers = Arrays.asList(4, 0, 2, -5, -8, 10, 12, 1);
         mergeSort(numbers).forEach(System.out::println);
-
     }
-
 
     private static List<Integer> mergeSort(final List<Integer> values) {
         if (values.size() < 2) {
@@ -53,7 +51,5 @@ public class MergeSort {
         }
 
         return merged;
-
-
     }
 }
